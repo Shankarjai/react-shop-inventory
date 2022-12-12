@@ -1,0 +1,155 @@
+.page-section-title{
+    margin-left: 15px;
+}
+
+#product-add-section-fieldset{
+    display: flex;
+    margin: 0 15px 10px 15px;
+    
+}
+
+.product-add-section-div{
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    width: 30%;
+}
+
+.product-add-section-label{
+    padding: 5px 0;
+}
+
+.product-page-heading{
+    padding-left: 15px;
+}
+
+#product-view-section-table{
+    border-collapse: collapse;
+    width: 98%;
+    margin: 10px 10px 10px 15px;
+    table-layout: fixed;
+}
+
+#product-view-section-table th{
+    background-color: #aecbeb;
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+    /*font-size: 18px;*/
+    min-width: 124px;
+    width: 16%;
+}
+
+#product-view-section-table-tbody{
+
+    display: block;
+    /*width: 1000px;*/
+    height: 260px;
+    overflow-y: scroll;
+
+}
+
+#product-view-section-table td{
+    padding: 8px;
+    border-bottom: 1px solid black;
+    border: 1px solid rgb(0, 0, 0, 0.2);
+    min-width: 124px;
+    width: 16%;
+}
+
+#product-view-section-table img{
+    width: 100px;
+}
+
+
+#product-view-section-table tr{
+    display: block;
+}
+
+#product-view-section-table-thead{
+
+}
+
+
+
+#product-view-section-table-tbody tr{
+
+    display: block;
+    
+}
+
+#product-modal-container{
+    display: flex;
+    position: absolute;
+    left: 40%;
+    top: 2%;
+}
+
+#product-model-window{
+    height: auto;
+    width: 400px;
+    background-color: #eae3e3;
+    border: 1px solid black;
+    padding:5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    overflow-y: scroll;
+}
+
+#product-modal-modify-container{
+    display: flex;
+    position: absolute;
+    left: 25%;
+    top: 30%;
+}
+
+#product-model-modify-window{
+    height: auto;
+    width: auto;
+    background-color: #eae3e3;
+    border: 1px solid black;
+    padding:5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    overflow-y: scroll;
+}
+
+#modal-product-detail-view-table{
+    
+    border: 1px solid #a79d9d;
+    width: 100%;
+    
+}
+
+#modal-product-detail-view-table img{
+    width: 100%;
+}
+
+#modal-product-detail-view-table thead{
+    text-align: left;
+}
+
+#modal-product-detail-view-table-title{
+    background-color: #292b2c;
+    color: white;
+    height: 30px;
+}
+
+#modal-product-detail-view-table tbody{
+
+}
+
+#modal-product-detail-view-table th, td{
+    padding: 5px;
+}
+
+#modal-product-detail-view-table tr:nth-child(even){
+    background-color: #c1baba;
+}
+
+#modal-product-detail-view-table tbody tr:last-child td{
+    border: none;
+}
+

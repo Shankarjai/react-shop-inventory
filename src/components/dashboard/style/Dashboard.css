@@ -1,0 +1,14 @@
+#dashboard-container{
+    display: flex;
+}
+
+#dashboard-view{
+    padding-left: 250px;
+    width: 100%;
+    margin-top: 15px;
+}
+
+#dashboard-view-container{
+    padding: 5px;
+}
+

@@ -1,0 +1,28 @@
+#home-welcome-totalcatergory-container{
+    
+    padding: 5px;
+    border-radius: 5px;
+    display:flex;
+    flex-direction: column;
+}
+
+#home-welcome-totalcatergory-text {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+#home-welcome-totalcatergory-section1{
+    display: flex;
+    width: auto;
+    justify-content: space-around;
+}
+
+#home-welcome-totalcatergory-section2{
+    
+}
+
+#home-welcome-totalcatergory-section2 p{
+    font-size: 17px;
+    font-weight: bold;
+    margin: 0 ;
+}

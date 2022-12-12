@@ -1,0 +1,7 @@
+#dashboardHome-welcome-container{
+    border: 1px solid #3cc5dc;
+    border-radius: 5px;
+    padding: 10px;
+    display:flex;
+    justify-content: space-around;
+}

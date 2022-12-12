@@ -1,0 +1,108 @@
+#pos-product-view-table{
+    width: 98%;
+    border-collapse: collapse;
+    margin: 5px;
+}
+
+.pos-section-label{
+    margin: 0 10px;
+}
+
+#pos-product-view-table-thead{
+    display: block;
+}
+
+#pos-product-view-table-thead th{
+    border: 1px solid #c97b16;
+    min-width: 124px;
+    padding: 8px;
+    background-color: burlywood;
+    width: 1%;
+}
+
+#pos-product-view-table-tbody{
+    display: block;
+    height: 300px;
+    overflow-y: scroll;
+}
+
+#pos-product-view-table-tbody td{
+    min-width: 124px;
+    padding: 8px;
+    width: 1%;
+    text-align: center;
+    border-bottom: 1px solid #d6cdcd;
+}
+
+.pos-modify-section-label{
+    display: block;
+    margin-bottom: 15px;
+}
+
+#pos-product-view-table-tfoot{
+    display: block;
+    background-color: burlywood;
+    font-size: 20px;
+    font-weight: bold;   
+}
+
+#pos-product-view-table-tfoot td,th{
+    min-width: 124px;
+    padding: 8px;
+    width: 1%;
+    text-align: center;
+    border-bottom: 1px solid #d6cdcd;
+}
+
+#pos-bill-model-window{
+    height: auto;
+    border: 1px solid black;
+    background-color: white;
+    padding: 10px;
+    border-style: dashed;
+}
+
+#bill-slip-container{
+
+}
+
+#bill-slip-table{
+
+}
+
+#bill-slip-table thead{
+
+}
+
+#bill-slip-table thead tr{
+    display: block;
+    width: 300px;
+}
+
+#bill-slip-table thead th{
+    text-align: left;
+    border-bottom: 1px solid black;
+    border-bottom-style: dashed;
+    font-family: serif;
+    font-weight: lighter;
+}
+
+#bill-slip-table tbody tr{
+    
+}
+
+
+#bill-slip-table tbody td{
+    
+}
+
+#bill-slip-table tfoot tr{
+    display: block;
+    border-top: 1px solid black;
+    border-top-style: dashed;
+    margin-top: 50px;
+}
+
+#bill-slip-table tfoot td{
+    
+}

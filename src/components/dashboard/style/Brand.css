@@ -1,0 +1,90 @@
+#brand-container{
+
+}
+
+#brand-window{
+
+}
+
+#brand-add-section{
+    padding: 15px;
+}
+
+#brand-view-section{
+
+
+}
+
+.brand-add-section-fieldset{
+    padding: 20px;
+    border: 1px solid #22809f;
+}
+
+.brand-add-section-label{
+    margin: 0 10px;
+}
+
+#brand-view-section-table{
+    border-collapse: collapse;
+    width: 1000px;
+    margin: 10px 10px 10px 15px;
+    table-layout: fixed;
+}
+
+#brand-view-section-table th{
+    background-color: #aecbeb;
+    border: 1px solid black;
+    padding: 10px;
+    text-align: left;
+    font-size: 18px;
+    width: 300px;
+}
+
+#brand-view-section-table td{
+    padding: 8px;
+    border-bottom: 1px solid black;
+    border: 1px solid rgb(0, 0, 0, 0.2);
+    width: 304px;
+}
+
+
+#brand-view-section-table tr{
+    display: block;
+}
+
+#brand-view-section-table-thead{
+
+}
+
+#brand-view-section-table-tbody{
+
+    display: block;
+    width: 1000px;
+    height: 550px;
+    overflow-y: scroll;
+
+}
+
+#brand-view-section-table-tbody tr{
+
+    display: block;
+    
+}
+
+#modal-container{
+    display: flex;
+    position: absolute;
+    left: 40%;
+    top: 30%;
+}
+
+#model-window{
+    height: 200px;
+    width: 400px;
+    background-color: #eae3e3;
+    border: 1px solid black;
+    padding:5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}

@@ -1,0 +1,38 @@
+#dashboardHome-reminding-qty-container{
+    width: 50%;
+    border: 1px solid lightblue;
+    border-radius: 5px;
+}
+
+#dashboardHome-reminding-qty-table{
+    border-collapse: collapse;
+    display: block;
+    width: auto;
+}
+
+#dashboardHome-reminding-qty-table-thead{
+
+}
+
+#dashboardHome-reminding-qty-table-thead th {
+    background-color: lightblue;
+}
+
+
+#dashboardHome-reminding-qty-table-tbody{
+    height: 250px;
+    overflow-y: scroll;
+    display: block;
+}
+
+#dashboardHome-reminding-qty-table-tbody td{
+    text-align: center;
+    width: 1%;
+}
+
+.dashboardHome-reminding-qty-table-tbody-td-qty{
+    font-weight: bold;
+    color: #327719;
+    font-size: 18px;
+}
+
